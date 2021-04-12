@@ -1,4 +1,3 @@
 {
-    "main": "https://streaming.wrek.org/main/320kb.mp3",
-    "time_chunks": 60
+    "stream_url": "https://streaming.wrek.org/main/320kb.mp3"
 }

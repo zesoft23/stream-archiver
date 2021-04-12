@@ -1,0 +1,11 @@
+# Docker Compose YAML file for lighttpd
+
+stream-archiver:
+    container_name: stream-archiver
+    build: .
+    restart: always
+    volumes:
+        - ./archived_files:/var/www/localhost/htdocs
+    ports:
+        - "8001:80" 
+    tty: true
